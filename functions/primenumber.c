@@ -18,12 +18,12 @@ int primeno(int a) {
         } else {
             printf("not prime");
         }
-    }
+    } 
 
     return 0;
 }
 
-int main(void) {
+int main () {
     int n;
     printf(" enter n : ");
     scanf("%d",&n);
