@@ -12,6 +12,7 @@ int arrLength=sizeof(array)/sizeof(array[0]);
 for (j=0; j<arrLength; j++)
 {
     printf("%d",array[j]);
+    printf("\n");
 }
 
 //return 0;
