@@ -22,7 +22,7 @@ int main () {
     }
     printf("the resulting array is:");
     for (i=0;i<n;i++) {
-    printf("[%d   ]",sumarray[i]);
+    printf("%d ",sumarray[i]);
   }
    }
    else {
