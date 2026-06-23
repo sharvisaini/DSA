@@ -9,22 +9,11 @@ int main () {
         scanf("%d",&array[i]);
     }
     int arrLength=sizeof(array)/sizeof(array[0]);
+    int unique=0;
     for (i=0;i<arrLength;i++){
-        int isDuplicate=0;
-          for (j=0;j<i;j++){
-            
-            if (array[i]==array[j]) {
-           isDuplicate=1;
-           break;
-            } 
-        }              
-     if (!isDuplicate)
-     {
- printf(" i : %d",array[i]);
-           
- 
-     }
-          }
-        
-return 0;
+        unique=unique^array[i];
+        printf("unique =  %d\n ",unique);
+    }
+    printf("the unique element is : %d ",unique);
+    return 0;
 }

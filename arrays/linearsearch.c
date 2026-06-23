@@ -24,13 +24,5 @@ if(index!=-1){
 else {
     printf(" not present ");
 }
-//     for (j=0;j<arrlength;j++){
-//         if (target==array[j]) {
-//            target=j;
-//           break;
-//         }
-//         }
-//     }
-// printf("index of target is : %d ",target);
 return 0;
 }
